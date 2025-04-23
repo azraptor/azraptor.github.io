@@ -41,7 +41,7 @@
         100% { color: #0e1; }
     }
     </style>
-<link rel="modulepreload" href="/wgpuproj1-414ab2c32a010ab1.js" crossorigin="anonymous" integrity="sha384-WbsaMgnuP6qvFu7ZZ5GZOXsCiNM+vdfv/q7EWUe7o2svQiUv5cYXsVKbS2PA4Q1l"><link rel="preload" href="/wgpuproj1-414ab2c32a010ab1_bg.wasm" crossorigin="anonymous" integrity="sha384-tfRe5MB3l/xpPO6X6QOgQb1j1Wijo+CFHXyq0Bb5VQyo/fVk14ngGB36lxOuc/0D" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./wgpuproj1-414ab2c32a010ab1.js" crossorigin="anonymous" integrity="sha384-WbsaMgnuP6qvFu7ZZ5GZOXsCiNM+vdfv/q7EWUe7o2svQiUv5cYXsVKbS2PA4Q1l"><link rel="preload" href="./wgpuproj1-414ab2c32a010ab1_bg.wasm" crossorigin="anonymous" integrity="sha384-tfRe5MB3l/xpPO6X6QOgQb1j1Wijo+CFHXyq0Bb5VQyo/fVk14ngGB36lxOuc/0D" as="fetch" type="application/wasm"></head>
 <body>
     <div>
         <h2>Textured WGPU Cube</h2>
@@ -52,8 +52,8 @@
     </div>
 
 <script type="module">
-import init, * as bindings from '/wgpuproj1-414ab2c32a010ab1.js';
-const wasm = await init({ module_or_path: '/wgpuproj1-414ab2c32a010ab1_bg.wasm' });
+import init, * as bindings from './wgpuproj1-414ab2c32a010ab1.js';
+const wasm = await init({ module_or_path: './wgpuproj1-414ab2c32a010ab1_bg.wasm' });
 
 
 window.wasmBindings = bindings;
